@@ -1,0 +1,212 @@
+.contact {
+  background: #080808;
+  border-top: 1px solid #111111;
+}
+
+.encabezado {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 48px;
+  padding: 80px 40px 0;
+}
+
+.numero {
+  color: #00ff41;
+  font-size: 13px;
+  letter-spacing: 2px;
+  opacity: 0.6;
+}
+
+.titulo {
+  color: #f0f0f0;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.linea {
+  flex: 1;
+  height: 1px;
+  background: #1a1a1a;
+}
+
+.contenido {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 40px 80px;
+}
+
+.mensaje {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mensajeTitulo {
+  color: #f0f0f0;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.mensajeTexto {
+  color: #555555;
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+.bloques {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.bloque {
+  width: 14px;
+  height: 14px;
+  background: #00ff41;
+  border-radius: 2px;
+  position: relative;
+  opacity: 0.3;
+}
+
+.bloque::before {
+  content: '';
+  width: 6px;
+  height: 4px;
+  background: #00cc33;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  top: -4px;
+  left: 4px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card {
+  background: #0a0a0a;
+  border: 1px solid #1a1a1a;
+  border-left: 3px solid #00ff41;
+  padding: 18px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  background: #0d1f0d;
+  border-color: #00ff41;
+}
+
+.cardLeft {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.bloquePequeno {
+  width: 10px;
+  height: 10px;
+  background: #00ff41;
+  border-radius: 2px;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.bloquePequeno::before {
+  content: '';
+  width: 4px;
+  height: 3px;
+  background: #00cc33;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  top: -3px;
+  left: 3px;
+}
+
+.cardNombre {
+  color: #00ff41;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.cardUsuario {
+  color: #444444;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.cardDescripcion {
+  color: #333333;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-align: right;
+  transition: color 0.2s;
+}
+
+.card:hover .cardDescripcion {
+  color: #00ff41;
+}
+
+.footer {
+  background: #0a0a0a;
+  border-top: 3px solid #00ff41;
+  padding: 24px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.footerBloques {
+  display: flex;
+  gap: 6px;
+}
+
+.footerBloque {
+  width: 10px;
+  height: 10px;
+  background: #00ff41;
+  border-radius: 2px;
+  position: relative;
+  opacity: 0.3;
+}
+
+.footerBloque::before {
+  content: '';
+  width: 4px;
+  height: 3px;
+  background: #00cc33;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  top: -3px;
+  left: 3px;
+}
+
+.footerTexto {
+  color: #333333;
+  font-size: 11px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.footerSub {
+  color: #222222;
+  font-size: 10px;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,164 @@
+.hero {
+  min-height: 90vh;
+  background: #050505;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.gridFondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  gap: 3px;
+  padding: 3px;
+  opacity: 0.12;
+  pointer-events: none;
+}
+
+.stud {
+  background: #1a1a1a;
+  border-radius: 3px;
+  position: relative;
+}
+
+.stud::before {
+  content: '';
+  width: 40%;
+  height: 30%;
+  background: #222;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  top: 15%;
+  left: 30%;
+}
+
+.contenido {
+  position: relative;
+  z-index: 2;
+  max-width: 750px;
+}
+
+.badge {
+  display: inline-block;
+  background: #001a08;
+  border: 1px solid #00ff41;
+  color: #00ff41;
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 6px 18px;
+  border-radius: 2px;
+  margin-bottom: 24px;
+}
+
+.nombre {
+  color: #f0f0f0;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.verde {
+  color: #00ff41;
+}
+
+.rol {
+  color: #00ff41;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.descripcion {
+  color: #666666;
+  font-size: 15px;
+  line-height: 1.9;
+  margin-bottom: 32px;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+.techTag {
+  background: #0d1f0d;
+  border: 1px solid #003311;
+  color: #00cc33;
+  font-size: 11px;
+  letter-spacing: 1px;
+  padding: 6px 14px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.punto {
+  width: 6px;
+  height: 6px;
+  background: #00ff41;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.botones {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.btnPrimario {
+  background: #00ff41;
+  color: #000000;
+  padding: 12px 30px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  clip-path: polygon(0 0, calc(100% - 10px) 0, 100% 10px, 100% 100%, 10px 100%, 0 calc(100% - 10px));
+  transition: background 0.2s;
+}
+
+.btnPrimario:hover {
+  background: #00cc33;
+}
+
+.btnSecundario {
+  border: 1px solid #00ff41;
+  color: #00ff41;
+  padding: 12px 30px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  transition: all 0.2s;
+}
+
+.btnSecundario:hover {
+  background: #001a08;
+}

@@ -1,0 +1,111 @@
+.about {
+  background: #080808;
+  padding: 80px 40px;
+  border-top: 1px solid #111111;
+}
+
+.encabezado {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.numero {
+  color: #00ff41;
+  font-size: 13px;
+  letter-spacing: 2px;
+  opacity: 0.6;
+}
+
+.titulo {
+  color: #f0f0f0;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.linea {
+  flex: 1;
+  height: 1px;
+  background: #1a1a1a;
+}
+
+.contenido {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.parrafo {
+  color: #666666;
+  font-size: 14px;
+  line-height: 1.9;
+  margin-bottom: 20px;
+}
+
+.verde {
+  color: #00ff41;
+}
+
+.habilidades {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.habilidadCard {
+  background: #0a0a0a;
+  border: 1px solid #1a1a1a;
+  border-left: 3px solid #00ff41;
+  padding: 16px 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  transition: border-color 0.2s;
+}
+
+.habilidadCard:hover {
+  border-color: #00ff41;
+  background: #0d1f0d;
+}
+
+.bloque {
+  width: 12px;
+  height: 12px;
+  background: #00ff41;
+  border-radius: 2px;
+  position: relative;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.bloque::before {
+  content: '';
+  width: 5px;
+  height: 4px;
+  background: #00cc33;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  top: -4px;
+  left: 3px;
+}
+
+.habilidadNombre {
+  color: #00ff41;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.habilidadTechs {
+  color: #555555;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 1.6;
+}

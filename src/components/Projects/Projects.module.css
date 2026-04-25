@@ -1,0 +1,202 @@
+.projects {
+  background: #050505;
+  padding: 80px 40px;
+  border-top: 1px solid #111111;
+}
+
+.encabezado {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.numero {
+  color: #00ff41;
+  font-size: 13px;
+  letter-spacing: 2px;
+  opacity: 0.6;
+}
+
+.titulo {
+  color: #f0f0f0;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.linea {
+  flex: 1;
+  height: 1px;
+  background: #1a1a1a;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #0a0a0a;
+  border: 1px solid #1a1a1a;
+  border-top: 3px solid #00ff41;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.card:hover {
+  border-color: #00ff41;
+  background: #0d1a0d;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardNumero {
+  color: #00ff41;
+  font-size: 11px;
+  letter-spacing: 2px;
+  opacity: 0.6;
+}
+
+.estadoCompletado {
+  background: #0d1f0d;
+  color: #00ff41;
+  font-size: 10px;
+  padding: 3px 10px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  border: 1px solid #003311;
+}
+
+.estadoEnDesarrollo {
+  background: #1a1400;
+  color: #ffaa00;
+  font-size: 10px;
+  padding: 3px 10px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  border: 1px solid #332200;
+}
+
+.estadoProximo {
+  background: #0a0a1a;
+  color: #6666ff;
+  font-size: 10px;
+  padding: 3px 10px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  border: 1px solid #111133;
+}
+
+.bloques {
+  display: flex;
+  gap: 6px;
+}
+
+.bloque {
+  width: 12px;
+  height: 12px;
+  background: #00ff41;
+  border-radius: 2px;
+  position: relative;
+  opacity: 0.4;
+}
+
+.bloque::before {
+  content: '';
+  width: 5px;
+  height: 4px;
+  background: #00cc33;
+  border-radius: 50% 50% 0 0;
+  position: absolute;
+  top: -4px;
+  left: 3px;
+}
+
+.card:hover .bloque {
+  opacity: 1;
+}
+
+.cardTitulo {
+  color: #f0f0f0;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.cardDescripcion {
+  color: #555555;
+  font-size: 12px;
+  line-height: 1.8;
+  flex: 1;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  background: #0d1f0d;
+  border: 1px solid #003311;
+  color: #00aa29;
+  font-size: 10px;
+  padding: 3px 10px;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.cardFooter {
+  display: flex;
+  gap: 10px;
+  padding-top: 8px;
+  border-top: 1px solid #111111;
+}
+
+.btnGithub {
+  background: #00ff41;
+  color: #000000;
+  padding: 8px 18px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  transition: background 0.2s;
+}
+
+.btnGithub:hover {
+  background: #00cc33;
+}
+
+.btnDemo {
+  border: 1px solid #333333;
+  color: #555555;
+  padding: 8px 18px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  transition: all 0.2s;
+}
+
+.btnDemo:hover {
+  border-color: #00ff41;
+  color: #00ff41;
+}
