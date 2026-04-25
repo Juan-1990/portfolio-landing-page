@@ -12,10 +12,10 @@
 }
 
 .numero {
-  color: #00ff41;
+  color: #80BFFF;
   font-size: 13px;
   letter-spacing: 2px;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .titulo {
@@ -43,7 +43,7 @@
 .card {
   background: #0a0a0a;
   border: 1px solid #1a1a1a;
-  border-top: 3px solid #00ff41;
+  border-top: 3px solid #80BFFF;
   padding: 24px;
   display: flex;
   flex-direction: column;
@@ -52,8 +52,8 @@
 }
 
 .card:hover {
-  border-color: #00ff41;
-  background: #0d1a0d;
+  border-color: #80BFFF;
+  background: #80c0ff2f;
 }
 
 .cardHeader {
@@ -63,15 +63,15 @@
 }
 
 .cardNumero {
-  color: #00ff41;
+  color: #80BFFF;
   font-size: 11px;
   letter-spacing: 2px;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .estadoCompletado {
   background: #0d1f0d;
-  color: #00ff41;
+  color: #80ffc4;
   font-size: 10px;
   padding: 3px 10px;
   border-radius: 2px;
@@ -107,7 +107,7 @@
 .bloque {
   width: 12px;
   height: 12px;
-  background: #00ff41;
+  background: #80BFFF;
   border-radius: 2px;
   position: relative;
   opacity: 0.4;
@@ -117,7 +117,7 @@
   content: '';
   width: 5px;
   height: 4px;
-  background: #00cc33;
+  background: #80BFFF;
   border-radius: 50% 50% 0 0;
   position: absolute;
   top: -4px;
@@ -138,7 +138,7 @@
 }
 
 .cardDescripcion {
-  color: #555555;
+  color: #c2c2c2;
   font-size: 12px;
   line-height: 1.8;
   flex: 1;
@@ -151,9 +151,9 @@
 }
 
 .tag {
-  background: #0d1f0d;
-  border: 1px solid #003311;
-  color: #00aa29;
+  background: #80c0ff2f;
+  border: 1px solid #80BFFF;
+  color: #80BFFF;
   font-size: 10px;
   padding: 3px 10px;
   border-radius: 2px;
@@ -169,7 +169,7 @@
 }
 
 .btnGithub {
-  background: #00ff41;
+  background: #80BFFF;
   color: #000000;
   padding: 8px 18px;
   font-size: 10px;
@@ -181,7 +181,7 @@
 }
 
 .btnGithub:hover {
-  background: #00cc33;
+  background: #005288;
 }
 
 .btnDemo {
@@ -197,8 +197,8 @@
 }
 
 .btnDemo:hover {
-  border-color: #00ff41;
-  color: #00ff41;
+  border-color: #80BFFF;
+  color: #80BFFF;
 }
 
 @media (max-width: 768px) {

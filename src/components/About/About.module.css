@@ -12,10 +12,10 @@
 }
 
 .numero {
-  color: #00ff41;
+  color: #80BFFF;
   font-size: 13px;
   letter-spacing: 2px;
-  opacity: 0.6;
+  opacity: 0.9;
 }
 
 .titulo {
@@ -41,14 +41,14 @@
 }
 
 .parrafo {
-  color: #666666;
+  color: #c2c2c2;
   font-size: 14px;
   line-height: 1.9;
   margin-bottom: 20px;
 }
 
 .verde {
-  color: #00ff41;
+  color: #80BFFF;
 }
 
 .habilidades {
@@ -60,7 +60,7 @@
 .habilidadCard {
   background: #0a0a0a;
   border: 1px solid #1a1a1a;
-  border-left: 3px solid #00ff41;
+  border-left: 3px solid #80BFFF;
   padding: 16px 20px;
   display: flex;
   align-items: flex-start;
@@ -69,14 +69,14 @@
 }
 
 .habilidadCard:hover {
-  border-color: #00ff41;
-  background: #0d1f0d;
+  border-color: #80BFFF;
+  background: #80c0ff2f;
 }
 
 .bloque {
   width: 12px;
   height: 12px;
-  background: #00ff41;
+  background: #80BFFF;
   border-radius: 2px;
   position: relative;
   flex-shrink: 0;
@@ -87,7 +87,7 @@
   content: '';
   width: 5px;
   height: 4px;
-  background: #00cc33;
+  background: #80BFFF;
   border-radius: 50% 50% 0 0;
   position: absolute;
   top: -4px;
@@ -95,7 +95,7 @@
 }
 
 .habilidadNombre {
-  color: #00ff41;
+  color: #80BFFF;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -104,7 +104,7 @@
 }
 
 .habilidadTechs {
-  color: #555555;
+  color: #c2c2c2;
   font-size: 12px;
   letter-spacing: 1px;
   line-height: 1.6;
