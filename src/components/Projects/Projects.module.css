@@ -200,3 +200,43 @@
   border-color: #00ff41;
   color: #00ff41;
 }
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 60px 24px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .titulo {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .cardTitulo {
+    font-size: 13px;
+  }
+
+  .cardDescripcion {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects {
+    padding: 48px 16px;
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+  .btnGithub,
+  .btnDemo {
+    padding: 8px 14px;
+    font-size: 9px;
+  }
+}

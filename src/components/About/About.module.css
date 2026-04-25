@@ -109,3 +109,46 @@
   letter-spacing: 1px;
   line-height: 1.6;
 }
+
+@media (max-width: 768px) {
+  .about {
+    padding: 60px 24px;
+  }
+
+  .contenido {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .titulo {
+    font-size: 20px;
+    letter-spacing: 2px;
+  }
+
+  .parrafo {
+    font-size: 13px;
+  }
+
+  .habilidadCard {
+    padding: 14px 16px;
+  }
+
+  .habilidadNombre {
+    font-size: 11px;
+  }
+
+  .habilidadTechs {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 48px 16px;
+  }
+
+  .encabezado {
+    gap: 10px;
+    margin-bottom: 32px;
+  }
+}
