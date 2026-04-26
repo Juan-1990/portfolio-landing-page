@@ -18,7 +18,7 @@ function Projects() {
       descripcion: 'Aplicacion de gestion de tareas con API REST completa. CRUD con base de datos relacional MySQL.',
       tecnologias: ['React', 'Node.js', 'Express', 'MySQL'],
       github: 'https://github.com/Juan-1990/task-manager-fullstack',
-      demo: '#',
+      demo: 'https://Juan-1990.github.io/task-manager-fullstack',
       estado: 'Completado'
     },
     {
