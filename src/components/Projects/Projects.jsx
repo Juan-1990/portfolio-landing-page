@@ -15,11 +15,11 @@ function Projects() {
     {
       numero: '// 002',
       titulo: 'Task Manager Fullstack',
-      descripcion: 'Aplicación de gestión de tareas con API REST completa. CRUD con autenticación y base de datos relacional.',
+      descripcion: 'Aplicacion de gestion de tareas con API REST completa. CRUD con base de datos relacional MySQL.',
       tecnologias: ['React', 'Node.js', 'Express', 'MySQL'],
-      github: '#',
+      github: 'https://github.com/Juan-1990/task-manager-fullstack',
       demo: '#',
-      estado: 'En desarrollo'
+      estado: 'Completado'
     },
     {
       numero: '// 003',
